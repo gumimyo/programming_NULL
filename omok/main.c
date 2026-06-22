@@ -121,7 +121,7 @@ int checkWin(int r, int c, int p){
         int total = 1
                   + countDir(r, c,  dr[i],  dc[i], p)
                   + countDir(r, c, -dr[i], -dc[i], p);
-        if (total >= 5) return 1;
+        if (total == 5) return 1;
     }
     return 0;
 }
