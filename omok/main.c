@@ -58,7 +58,7 @@ const char* gridChar(int i, int j){
     return "┼";
 }
 
-/* 오목판 출력 */
+/* 오목판 출력 */                                                                                                //=>작성자 : 유준서
 void printBoard(void){
     printf("\033[2J\033[H");   /* 화면 지우기 + 커서 맨 위로 */
 
@@ -103,7 +103,7 @@ void printBoard(void){
     if (status[0]) printf("   %s\n", status);
 }
 
-/* (dr,dc) 방향으로 같은 돌이 몇 개 이어지는지 세기 */
+/* (dr,dc) 방향으로 같은 돌이 몇 개 이어지는지 세기 */                                                             //=>작성자 :윤수인
 int countDir(int r, int c, int dr, int dc, int p){
     int cnt = 0, nr = r + dr, nc = c + dc;
     while (nr >= 0 && nr < 15 && nc >= 0 && nc < 15 && board[nr][nc] == p){
@@ -113,7 +113,7 @@ int countDir(int r, int c, int dr, int dc, int p){
     return cnt;
 }
 
-/* (r,c)에 둔 돌 기준으로 5목 완성 여부 검사 */
+/* (r,c)에 둔 돌 기준으로 5목 완성 여부 검사 */                                                                    //=>작성자 : 윤다휘
 int checkWin(int r, int c, int p){
     int dr[4] = {0, 1, 1,  1};   /* 가로, 세로, ↘, ↙ */
     int dc[4] = {1, 0, 1, -1};
@@ -125,7 +125,7 @@ int checkWin(int r, int c, int p){
     }
     return 0;
 }
-
+                                                                                                                //=>작성자 : 유준서
 int main(void){
     enableConsole();
     initBoard();
