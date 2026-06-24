@@ -4,7 +4,7 @@
    <details><summary> coworker
    </summary>
 
-   *유준서, 윤다휘, 윤수인*
+   *1616유준서, 1617윤다휘, 1618윤수인*
    </details>
 
 ## ❓왜 오목게임을 선택했나요
