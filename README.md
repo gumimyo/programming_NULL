@@ -1,6 +1,7 @@
 ## 🛠 PROGRAMMING TEAM_NULL 🛠
 
- - c언어로<u> **" omok game "** </u>만들기
+&nbsp; [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=3148B5&width=500&lines={PROGRAMMING+TEAM_NULL+%3A++Null+to+Value})](https://git.io/typing-svg)
+- c언어로<u> **" omok game "** </u>만들기
    <details><summary> coworker
    </summary>
 
